@@ -1,5 +1,6 @@
-# archcfce
+# archxfce
 # modification of arcolinux original script
+
 
 # Vision
 
@@ -32,6 +33,3 @@ Tutorials about ArcoLinux iso (Xfce, Openbox and i3) : https://arcolinux.com
 Tutorials about ArcoLinuxD iso (any desktop) : https://arcolinuxd.com
 
 Forum : https://arcolinuxforum.com
-
-
-

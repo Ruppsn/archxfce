@@ -1,14 +1,6 @@
 #!/bin/bash
 set -e
-##################################################################################################################
-# Author	:	Erik Dubois
-# Website	:	https://www.erikdubois.be
-# Website	:	https://www.arcolinux.info
-# Website	:	https://www.arcolinux.com
-# Website	:	https://www.arcolinuxd.com
-# Website	:	https://www.arcolinuxb.com
-# Website	:	https://www.arcolinuxiso.com
-# Website	:	https://www.arcolinuxforum.com
+
 ##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
@@ -23,9 +15,9 @@ sudo pacman -S --noconfirm --needed catfish
 sudo pacman -S --noconfirm --needed cmatrix
 sudo pacman -S --noconfirm --needed galculator
 sudo pacman -S --noconfirm --needed gnome-screenshot
-sudo pacman -S --noconfirm --needed plank
-sudo pacman -S --noconfirm --needed redshift
-#sudo pacman -S --noconfirm --needed xfburn
+#sudo pacman -S --noconfirm --needed plank
+#sudo pacman -S --noconfirm --needed redshift
+sudo pacman -S --noconfirm --needed xfburn
 sudo pacman -S --noconfirm --needed variety
 #sudo pacman -S --noconfirm --needed
 
@@ -72,9 +64,9 @@ echo "Installing category Multimedia"
 #sudo pacman -S --noconfirm --needed deadbeef
 #sudo pacman -S --noconfirm --needed mpv
 #sudo pacman -S --noconfirm --needed openshot
-#sudo pacman -S --noconfirm --needed pragha
+sudo pacman -S --noconfirm --needed pragha
 #sudo pacman -S --noconfirm --needed shotwell
-#sudo pacman -S --noconfirm --needed simplescreenrecorder
+sudo pacman -S --noconfirm --needed simplescreenrecorder
 #sudo pacman -S --noconfirm --needed smplayer
 sudo pacman -S --noconfirm --needed vlc
 #sudo pacman -S --noconfirm --needed
@@ -153,7 +145,7 @@ sudo pacman -S --noconfirm --needed zenity
 ###############################################################################################
 
 # installation of zippers and unzippers
-sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils uudeview arj cabextract file-roller
+sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils  uudeview  arj cabextract file-roller
 
 ###############################################################################################
 

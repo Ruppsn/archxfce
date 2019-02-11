@@ -1,37 +1,34 @@
 #!/bin/bash
 #set -e
-
-##################################################################################################################
-# Version	: 	1.0 (04.02.2019)
-# Author	:		Philipp
-# Git			:		https://github.com/Ruppertus98
 ##################################################################################################################
 #
-#			Get the latest files from github
+#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
 
-# checking if its the latest version from git
-echo "Checking for newer git files online"
+# checking if I have the latest files from github
+echo "Checking for newer files online first"
 git pull
 
-# Backup everything inside the project folder
+# Below command will backup everything inside the project folder
 git add --all .
 
-# Give a comment to the commit (optional)
-echo "################################"
+# Give a comment to the commit if you want
+echo "####################################"
 echo "Write your commit comment!"
-echo "################################"
+echo "####################################"
 
 read input
 
-# Committing to the local repo with a message containing the time details and commit text
+# Committing to the local repository with a message containing the time details and commit text
+
 git commit -m "$input"
 
-# Push -u origin master
+# Push the local files to github
+
 git push -u origin master
 
 
-echo "################################"
-echo "##		Git Push Done		##"
-echo "################################"
+echo "################################################################"
+echo "###################    Git Push Done      ######################"
+echo "################################################################"

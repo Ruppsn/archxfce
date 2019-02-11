@@ -1,6 +1,5 @@
 #!/bin/bash
 set -e
-
 ##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
@@ -15,8 +14,8 @@ sudo pacman -S --noconfirm --needed catfish
 sudo pacman -S --noconfirm --needed cmatrix
 sudo pacman -S --noconfirm --needed galculator
 sudo pacman -S --noconfirm --needed gnome-screenshot
-#sudo pacman -S --noconfirm --needed plank
-#sudo pacman -S --noconfirm --needed redshift
+sudo pacman -S --noconfirm --needed plank
+sudo pacman -S --noconfirm --needed redshift
 sudo pacman -S --noconfirm --needed xfburn
 sudo pacman -S --noconfirm --needed variety
 #sudo pacman -S --noconfirm --needed

@@ -1,8 +1,7 @@
-# archxfce
-# modification of arcolinux original script
+# ArcoLinuxD XFCE desktop with my own edits
 
 
-# Vision
+# Vision of ArcoLinuxD
 
 This github will not only install the desktop.
 But we will install all needed software.

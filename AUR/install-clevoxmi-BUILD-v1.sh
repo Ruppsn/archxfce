@@ -5,6 +5,10 @@ set -e
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
+echo "!!!!!!!!!!!!LINUX HEADERS GCC AND MAKE MUST BE INSTALLED!!!!!!!!!!!!!!!!"
+sudo pacman -S --noconfirm --needed python python-pip tk
+sudo pip install cefpython3==66.0
+
 
 if ! [ -d "~/repos" ];then
 echo "directory already exists"
@@ -12,20 +16,18 @@ else
 		mkdir ~/repos;
 fi
 
-cd ~/repos
+cd ~Downloads
 
-git clone https://bitbucket.org/tuxedocomputers/clevo-xsm-wmi/get/dcf282992eb8.zip
+curl -O https://bitbucket.org/tuxedocomputers/clevo-xsm-wmi/get/dcf282992eb8.zip
 
-mv dcf282992eb8.zip clevo-xmi-tuxedo
 
-cd clevo-xmi-tuxedo/module
-make && sudo make
+unzip dcf282992eb8.zip -d ~/repos/clevo-xmi-ui
 
-cd ..
+cd ~/repos/clevo-xmi-ui
 
-sudo pacman -S --noconfirm --needed python python-pip tk
-sudo pip install cefpython3==66.0
+cd module
+make && sudo make install
 
-cd ui
+cd ~repos/clevo-xmi-ui/ui
 
 sudo make install

@@ -16,18 +16,33 @@ else
 		mkdir ~/repos;
 fi
 
-cd ~Downloads
+cd ~/Downloads
 
-curl -O https://bitbucket.org/tuxedocomputers/clevo-xsm-wmi/get/dcf282992eb8.zip
+curl -O https://bitbucket.org/tuxedocomputers/clevo-xsm-wmi/get/dcf282992eb8.zip 
 
 
+<<<<<<< HEAD:170-clevohardware-v1.sh
 unzip dcf282992eb8.zip -d ~/repos/
+=======
+unzip dcf282992eb8.zip -d ~/repos/ &> /dev/null;
+>>>>>>> 89900375b8098d43dfbbe6724bbc1c3c55ea51d2:AUR/install-clevoxmi-BUILD-v1.sh
 
-cd ~/repos/clevo-xmi-ui
+echo "File was extracted to ~/repos/clevo-xsm-wmi"
+
+
+mv ~/repos/tuxedocomputers-clevo-xsm-wmi-dcf282992eb8 ~/repos/clevo-xsm-wmi 
+
+cd ~/repos/clevo-xsm-wmi
 
 cd module
 make && sudo make install
 
-cd ~repos/clevo-xmi-ui/ui
+cd ~/repos/clevo-xsm-wmi/ui
 
 sudo make install
+
+
+echo "#####################################################################################"
+echo "########  Module was installed, maybe you ned to start it manually with depmod  ####"
+echo "### $ sudo install -m644 clevo-xsm-wmi.ko /lib/modules/$(uname -r)/extra    ########"
+echo "### $ sudo depmod ####"

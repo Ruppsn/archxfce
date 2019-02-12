@@ -21,7 +21,7 @@ cd ~Downloads
 curl -O https://bitbucket.org/tuxedocomputers/clevo-xsm-wmi/get/dcf282992eb8.zip
 
 
-unzip dcf282992eb8.zip -d ~/repos/clevo-xmi-ui
+unzip dcf282992eb8.zip -d ~/repos/
 
 cd ~/repos/clevo-xmi-ui
 

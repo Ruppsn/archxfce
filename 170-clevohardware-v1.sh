@@ -21,11 +21,9 @@ cd ~/Downloads
 curl -O https://bitbucket.org/tuxedocomputers/clevo-xsm-wmi/get/dcf282992eb8.zip 
 
 
-<<<<<<< HEAD:170-clevohardware-v1.sh
-unzip dcf282992eb8.zip -d ~/repos/
-=======
+
+
 unzip dcf282992eb8.zip -d ~/repos/ &> /dev/null;
->>>>>>> 89900375b8098d43dfbbe6724bbc1c3c55ea51d2:AUR/install-clevoxmi-BUILD-v1.sh
 
 echo "File was extracted to ~/repos/clevo-xsm-wmi"
 

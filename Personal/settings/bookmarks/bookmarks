@@ -1,2 +1,3 @@
 file:///etc/skel /etc/skel
 file:///tmp tmp
+file:///home/raven/.config .config

@@ -139,6 +139,7 @@ sudo pacman -S --noconfirm --needed urxvt-perls
 sudo pacman -S --noconfirm --needed xdg-user-dirs
 sudo pacman -S --noconfirm --needed zenity
 sudo pacman -S --noconfirm --needed grub-customizer
+sudo pacman -S --noconfirm --needed p7zip
 #sudo pacman -S --noconfirm --needed
 
 

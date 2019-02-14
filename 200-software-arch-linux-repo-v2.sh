@@ -139,14 +139,15 @@ sudo pacman -S --noconfirm --needed urxvt-perls
 sudo pacman -S --noconfirm --needed xdg-user-dirs
 sudo pacman -S --noconfirm --needed zenity
 sudo pacman -S --noconfirm --needed grub-customizer
-sudo pacman -S --noconfirm --needed p7zip
+sudo pacman -S --noconfirm --needed powerline powerline-fonts
+
 #sudo pacman -S --noconfirm --needed
 
 
 ###############################################################################################
 
 # installation of zippers and unzippers
-sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils uudeview arj cabextract file-roller
+sudo pacman -S --noconfirm --needed p7zip unace unrar zip unzip sharutils uudeview arj cabextract file-roller
 
 ###############################################################################################
 

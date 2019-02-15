@@ -30,6 +30,8 @@ sudo pacman -S --noconfirm --needed meld
 
 echo "Installing category Education"
 
+sudo pacman -S --noconfirm --needed tldr
+
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Games"

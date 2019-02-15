@@ -27,6 +27,8 @@ sh AUR/install-sublime-text-v*.sh
 
 echo "Installing category Education"
 
+sh AUR/install-cheat-v*.sh
+sh AUR/install-bropages-v*.sh
 
 echo "Installing category Games"
 

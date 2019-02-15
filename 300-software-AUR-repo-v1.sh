@@ -43,7 +43,7 @@ echo "Installing category Multimedia"
 
 sh AUR/install-gradio-v*.sh
 # sh AUR/install-peek-v*.sh
-sh AUR/install-radiotray-v*.sh
+# sh AUR/install-radiotray-v*.sh
 
 
 echo "Installing category Office"

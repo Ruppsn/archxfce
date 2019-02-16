@@ -53,6 +53,7 @@ echo "Installing category Office"
 
 echo "Installing category Other"
 sh AUR/install-gotopbin-v*.sh
+sh AUR/install-franz-v*.sh
 
 echo "Installing category System"
 

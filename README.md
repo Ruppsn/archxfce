@@ -1,7 +1,9 @@
 # ArcoLinuxD XFCE desktop with my own edits
 
 TO-DO:
+
 -Update Software list to august2019
+
 -Update/Make a Theming script
 
 

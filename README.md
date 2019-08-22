@@ -2,9 +2,9 @@
 
 TO-DO:
 
-[] Update Software list to august2019
+-[ ] Update Software list to august2019
 
-[] Update/Make a Theming script
+- [ ] Update/Make a Theming script
 
 
 
